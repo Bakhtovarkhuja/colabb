@@ -9,19 +9,16 @@
 </head>
 <body>
     <nav class="p-[20px] flex items-center justify-between">
-        <div>
-            <img src="./Search.png">
-        </div>
-        <div>
-            <p class="text-[20px]">Avion</p>
-        </div>
+        <img class="hidden lg:block" src="./Search.png">
+        <p class="text-[20px]">Avion</p>
         <div class="flex gap-[15px]">
             <img src="./Shopping--cart.png">
-            <img src="./User--avatar.png">
+            <img class="hidden lg:block" src="./User--avatar.png">
+            <img class="lg:hidden" src="./Menu.png">
         </div>
     </nav>
-    <hr>
-    <header class="flex gap-[20px] justify-center p-[20px] text-gray-500">
+    <hr class="hidden lg:block">
+    <header class="gap-[20px] hidden lg:flex justify-center p-[20px] text-gray-500">
         <p>Plan pots</p>
         <p>Ceramics</p>
         <p>Tables</p>
@@ -30,5 +27,28 @@
         <p>Tableware</p>
         <p>Cutlery</p>
     </header>
+    <section>
+        <div class="lg:flex bg-[#2A254B] lg:justify-between">
+            <div class="text-white lg:w-[50%] px-[25px] py-[30px]">
+                <h1 class="text-[30px]">The furniture brand for the future, with timeless designs</h1>
+                <br>
+                <div class="hidden lg:block">
+                    <button class="bg-[#8080804f] px-[25px] py-[15px]">View collection</button>
+                </div>
+                <div class="lg:mt-[40%] ">
+                    <p>A new era in eco friendly furniture with Avelon, the French luxury retail brand
+                        with nice fonts, tasteful colors and a beautiful way to display things digitally 
+                        using modern web technologies.</p>
+                </div>
+                <br>
+                <div class="text-center lg:hidden">
+                    <button class="bg-[#8080804f] w-[100%] py-[15px]">View collection</button>
+                </div>
+            </div>
+            <div class="hidden lg:block">
+                <img src="./Right Image (1).png">
+            </div>
+        </div>
+    </section>
 </body>
 </html>
